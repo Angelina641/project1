@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    max-width: 960px;
+    background-color: aliceblue;
+}
+
+header {
+    justify-content: center;
+    padding: 10px;
+    background-color: #AFF7FD;  
+    width: 960px;
+    height: 200px;
+    align-items: center;
+}
+
+.imgh{
+    width: 960px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    margin-bottom: 5px;
+}
+
+nav {
+    display:flex;
+    width: 960px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ff059f;
+    border-top: 1px solid #ff059f;
+    margin-top: 10px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color:#780D73;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px; 
+    font-size: 18px;
+    border: 3px solid #FFF0F5;
+    background-color: #FFF0F5;
+}  
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #ff059f;
+    margin-bottom: 34px;
+    margin-top: 45px;
+}
+h3{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #79044c;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    padding: 15px 40px 30px 40px;
+    width: 900px;
+    margin: 20px;
+    border: 3px solid #ff059f;
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+
+.article-but {
+    text-decoration: none;
+    background: #781B7E;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+    
+}
+
+.dos1{
+    display: flex;
+}
+
+.dost{
+    background-color: white;
+    padding: 15px 40px 30px 40px;
+    width: 350px;
+    margin: 20px;
+    border: 3px solid #ff059f;
+    color: #781B7E;
+    width: 600px;
+    font-size: 18px;
+}
+.dost p{
+    color:#781B7E;
+    font-size: 22px;
+}
+ 
+
+footer {
+   display: flex;
+   background-color: #AFF7FD;
+    width: 960px;
+}
+
+footer a {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-left: 40px;
+    color: #780D73;
+    padding-top: 20px;
+}
